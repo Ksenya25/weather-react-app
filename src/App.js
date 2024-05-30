@@ -11,7 +11,11 @@ function App() {
         <div className="footer">
           <p>
             This project was coded by Ksenya{" "}
-            <a href="https://github.com/Ksenya25/my-app.git" target="_blank">
+            <a
+              href="https://github.com/Ksenya25/my-app.git"
+              target="_blank"
+              rel="noreferrer"
+            >
               open-source code on GitHub
             </a>
           </p>
