@@ -5,7 +5,7 @@ import "./App.css";
 export default function SearchEngine() {
   let [city, setCity] = useState("");
   const [message, setMessage] = useState("");
-  const [temperature, setTemperature] = useState("null");
+  const [temperature] = useState("null");
 
   function showForecast(response) {
     setMessage(
