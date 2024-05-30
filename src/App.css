@@ -79,9 +79,9 @@ form input {
 }
 a {
   text-decoration: underline;
-  color: #000;
+  color: #fff;
 }
 a:hover {
-  color: #8e82e0;
+  color: #170e53;
   text-decoration: none;
 }

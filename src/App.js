@@ -12,7 +12,7 @@ function App() {
           <p>
             This project was coded by Ksenya{" "}
             <a
-              href="https://github.com/Ksenya25/my-app.git"
+              href="https://github.com/Ksenya25/weather-react-app"
               target="_blank"
               rel="noreferrer"
             >
