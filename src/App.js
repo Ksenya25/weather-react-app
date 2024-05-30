@@ -9,7 +9,12 @@ function App() {
         <SearchEngine />
 
         <div className="footer">
-          <p>This project was coded by Ksenya</p>
+          <p>
+            This project was coded by Ksenya{" "}
+            <a href="https://github.com/Ksenya25/my-app.git" target="_blank">
+              open-source code on GitHub
+            </a>
+          </p>
         </div>
       </header>
     </div>
