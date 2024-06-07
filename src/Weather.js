@@ -42,20 +42,20 @@ export default function SearchEngine(props) {
       <div className="Weather">
         <form onSubmit={handleSubmit}>
           <div className="row ">
-            <div className="col-8">
+            <div className="col-sm-10 p-1">
               <input
                 type="search"
                 placeholder="Type a city..."
                 autoFocus="on"
                 onChange={updateCity}
-                className="form-control"
+                className="form-search-bar"
               />
             </div>
-            <div className="col-4">
+            <div className="col-sm-2 p-1">
               <input
                 type="submit"
                 value="Search"
-                className="btn btn-primary  "
+                className="btn search-button"
               />
             </div>
           </div>
