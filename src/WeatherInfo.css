@@ -1,0 +1,12 @@
+.WeatherInfo {
+  margin-top: 20px;
+  color: rgb(235, 220, 220);
+}
+
+.WeatherInfo .temperature-container {
+  margin-left: 55px;
+  align-items: center;
+  padding: 0 px;
+  margin: 0 px;
+  color: rgb(235, 220, 220);
+}

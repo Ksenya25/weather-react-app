@@ -1,16 +1,17 @@
-import "./App.css";
+import React from "react";
 import SearchEngine from "./Weather";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="container">
         <h1>Weather react App</h1>
-        <SearchEngine />
+        <SearchEngine defaultCity="Kharkiv" />
 
         <div className="footer">
           <p>
-            This project was coded by Ksenya{" "}
+            This project was coded by Ksenya O.{" "}
             <a
               href="https://github.com/Ksenya25/weather-react-app"
               target="_blank"
@@ -20,7 +21,7 @@ function App() {
             </a>
           </p>
         </div>
-      </header>
+      </div>
     </div>
   );
 }
