@@ -17,7 +17,16 @@ function App() {
               target="_blank"
               rel="noreferrer"
             >
-              and open-sourced on GitHub.
+              and is open-sourced on GitHub
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://weatherreactx.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              and hosted on Netlify.
             </a>
           </p>
         </div>

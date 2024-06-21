@@ -57,34 +57,13 @@
   margin-left: 5px;
   font-weight: 400;
 }
-
 .Weather .unit {
-  color: rgb(235, 220, 220);
-  font-size: 64px;
+  vertical-align: top;
+  font-size: 21px;
+  text-align: left;
   font-weight: 400;
-  position: relative;
-  line-height: 1.5;
+  margin-left: 5px;
 }
-
-@media (max-width: 932px) {
-  .Weather {
-    text-align: center;
-  }
-  .Weather h1 {
-    font-size: 40px;
-  }
-  .Weather li {
-    display: inline-block;
-    margin: 10px;
-  }
-  .Weather .units {
-    font-size: 19px;
-    position: relative;
-    top: -30px;
-  }
-
-  .Weather .btn {
-    display: inline;
-    width: 100%;
-  }
+.Weather .unit a {
+  color: rgb(235, 220, 220);
 }
