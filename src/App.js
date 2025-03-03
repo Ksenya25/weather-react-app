@@ -6,7 +6,6 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather react App</h1>
         <SearchEngine defaultCity="Kharkiv" />
 
         <div className="footer">

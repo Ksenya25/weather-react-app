@@ -3,11 +3,12 @@
 }
 
 .WeatherForecast-temperature-min {
-  opacity: 0.7;
+  opacity: 0.6;
   margin-left: 5px;
+  color: rgb(229, 203, 203);
 }
 
 .Weather .WeatherForecast canvas {
   display: block;
-  margin: 20px auto;
+  margin: 15px auto;
 }
